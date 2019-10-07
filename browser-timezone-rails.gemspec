@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 3.1"
-  s.add_dependency "js_cookie_rails"
+  s.add_dependency "js_cookie_rails", ">= 2.2"
   s.add_dependency "jstz-rails3-plus"
 
   s.add_development_dependency "rspec-rails"
